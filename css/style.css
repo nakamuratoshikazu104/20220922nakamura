@@ -131,10 +131,11 @@
   width: 100%;
 }
 .page2-main-contents-left{
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   width: 40%;
   line-height: 20px;
+  margin: 0 auto;
 }
 .page2-main-contents-left-1{
   margin-bottom: 20px;
@@ -151,11 +152,11 @@
 }
 .page3-main-contents{
   display: flex;
-  height: 300px;
+  height: 400px;
   margin: 50px 0;
 }
 .page3-main-contents-left{
-  background-color: rgb(154, 28, 135);
+  background-color: rgb(117, 4, 100);
   text-align: center;
   padding: 20px 20px;
   height: 100%;
@@ -168,20 +169,21 @@
 .page3-main-contents-ttl{
   font-weight: bold;
   margin: 10px 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 .page3-main-contents-text{
-  margin: 0 20px;
+  margin: 20px 30px;
   text-align: left;
   font-size: 14px;
   line-height: 28px;
 }
 .page3-main-content-right-1{
-  background-color: rgb(117, 4, 100);
+  background-color: rgb(154, 28, 135);
   display: flex;
   height: 50%;
   padding: 20px 10px;
   box-sizing: border-box;
+  align-items: center;
 }
 .page3-main-content-right-2 {
   background-color: rgb(81, 59, 78);
@@ -189,6 +191,7 @@
   height: 50%;
   padding: 20px 10px;
   box-sizing: border-box;
+  align-items: center;
 }
 .page3-main-content-right{
   height: 100%;
@@ -200,7 +203,7 @@
 .page3-main-contents-ttl-right {
   font-weight: bold;
   margin: 10px 20px;
-  font-size: 14px;
+  font-size: 18px;
 }
 .page3-main-contents-text-right {
   margin: 0 20px;
@@ -230,12 +233,16 @@
   background-color: rgb(229, 229, 229);
   border-radius: 10px;
   text-decoration: none;
-  color: gray
+  color: gray;
+  height: 25%;
 }
 .page4-main-contents-item-img img{
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+.page4-main-contents-item-img{
+  height: 30%;
 }
 .page4-main-contents-item-blog{
   position: absolute;
@@ -248,9 +255,9 @@
   border-top-left-radius: 10px;
 }
 .page4-main-contents-item-text{
-  font-size: 11px;
-  margin: 10px;
-  line-height: 16px;
+  font-size: 12px;
+  margin: 10px 20px;
+  line-height: 20px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -259,8 +266,7 @@
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  margin: 10px;
-  margin-bottom: 20px;
+  margin: 30px 20px;
 }
 .page4-main-link{
   text-align: center;
@@ -308,17 +314,24 @@ text-align: center;
 }
 .page6-main-top{
   display: flex;
+  justify-content: space-between;
   width: 100%;
   margin-top: 50px;
+  height: auto;
 }
 .page6-main-top-box-img{
   width: 100%;
+  height: auto;
 }
 .page6-main-top-box-img img{
   width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .page6-main-top-box{
   position: relative;
+  top: 0px;
+  right: 0px;
 }
 .page6-main-top-box a{
   position: absolute;
