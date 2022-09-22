@@ -35,22 +35,22 @@
 .page1-top-text{
   position: absolute;
   top: 10%;
-  left: 20%;
+  left: 30%;
 }
 .page1-top-text-ttl{
-  font-size: 36px;
+  font-size: 42px;
   font-family: 'Indie Flower', cursive;
   color:rgb(154, 28, 135);
-  line-height: 60px;
+  line-height: 72px;
 }
 .page1-top-text-ttl-span{
   color: lightseagreen;
 }
 .page1-top-text-exp{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .page1-top-text-exp-jpn{
-  font-size: 20px;
+  font-size: 24px;
   color:rgb(154, 28, 135);
   font-weight: bold;
 }
@@ -173,8 +173,8 @@
 .page3-main-contents-text{
   margin: 0 20px;
   text-align: left;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 28px;
 }
 .page3-main-content-right-1{
   background-color: rgb(117, 4, 100);
@@ -205,8 +205,8 @@
 .page3-main-contents-text-right {
   margin: 0 20px;
   text-align: left;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 28px;
 }
 .page4 {
   background-color: gainsboro;
@@ -353,8 +353,10 @@ text-align: center;
 .page6-main-link-a::before {
   content: "";
   position: absolute;
-  top: 50%;
-  height: 15px;
+  top: 25px;
+  left: 40px;
+  height: 30px;
+  width: 30px;
   background: url(../img/mailicon.svg) no-repeat;
   background-size: cover;
 }
