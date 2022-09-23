@@ -314,7 +314,6 @@ text-align: center;
 }
 .page6-main-top{
   display: flex;
-  justify-content: space-between;
   width: 100%;
   margin-top: 50px;
   height: auto;
@@ -332,6 +331,7 @@ text-align: center;
   position: relative;
   top: 0px;
   right: 0px;
+  width: 50%;
 }
 .page6-main-top-box a{
   position: absolute;
